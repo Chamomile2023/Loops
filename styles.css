@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 4px;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+/* .sms {
+	padding: 15px;
+	max-width: 400px;
+	background-color: orange;
+}
+.sms:hover {
+    background-color: bisque;
+}
+.sms1 {
+	margin-top: 15px;
+	padding: 15px;
+	max-width: 400px;
+	background-color: orange;
+}
+.sms1 > input:focus {
+	background-color: bisque;
+}
+button:active {
+	padding: 10px;
+}
+
+li:nth-child(2n-1) {
+	background-color: red;
+} */
+/* li:first-child {
+font-size: 40px;
+background-color: red;
+}
+li:last-child {
+    font-size: 40px;
+	background-color: red;
+} */
+/* .sms {
+	padding: 15px;
+	max-width: 400px;
+	background-color: orange;
+	position: relative;
+	border-radius: 15px;
+}
+.sms::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: -10px;
+	border-bottom: 20px solid orange;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+} */
+
+.site-nav {
+	display: flex;
+	align-items: center;
+}
+.logo {
+	text-decoration: none;
+	margin-right: auto;
+	color: black;
+	font-size: 18px;
+}
+.logo:hover {
+	color: blue;
+}
+.site-nav-list {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+}
+.site-nav-link {
+	text-decoration: none;
+	font-size: 18px;
+	margin: 0 15px;
+	text-transform: uppercase;
+	padding-top: 10px;
+	border-bottom: 2px solid transparent;
+}
+.site-nav-link:hover {
+	border-bottom: 2px solid black;
+}
+/* .site-nav-link:active {
+	color: red;
+}
+.site-nav-link:focus {
+	background-color: green;
+} */
+.services {
+	position: relative;
+}
+.services::after {
+	content: '';
+	position: absolute;
+	border-top: 12px solid black;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	top: 15px;
+	right: -20px;
+}
+.has-sub-menu {
+	position: relative;
+	/* border: 2px solid black; */
+}
+.has-sub-menu > .site-nav-link:hover {
+	border-bottom: 2px solid transparent;
+}
+.sub-menu {
+	display: none;
+	position: absolute;
+	list-style-type: none;
+	background-color: rgb(224, 153, 153);
+	width: 100px;
+	left: 22px;
+	top: 30px;
+}
+.has-sub-menu:hover .sub-menu {
+	display: block;
+}
+/* .services::after:hover .sub-menu {
+	display: block;
+} */
